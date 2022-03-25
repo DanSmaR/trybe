@@ -1,0 +1,44 @@
+    1  clear
+    2  ls -la
+    3  cd Documents
+    4  cd ~
+    5  ls -la
+    6  sudo nano .zshrc
+    7  clear
+    8  q
+    9  cd Documents
+   10  exit
+   11  cd Documents/clear
+   12  cd Documents/mit-tech-review/ls
+   13  cd Documents/mit-tech-review
+   14  ls
+   15  ls -l
+   16  q
+   17  exit
+   18  cd Documents/mit-tech-review
+   19  ls -l
+   20  cd Documents/italia
+   21  ls
+   22  reload
+   23  cd Documents/sistemas-informacao
+   24  ls
+   25  ls | grep *systems*
+   26  grep *systems*
+   27  ls *systems*
+   28  cd Documents/webDev/trybe/fundamentos/bloco-01-unix-e-shell/
+   29  clear
+   30  pwd
+   31  ls
+   32  mkdir dia-04-unix-bash
+   33  cd dia-04-unix-bash
+   34  cat nomes.txt
+   35  cat > nomes.txt
+   36  cat nomes.txt
+   37  cat > nomes.txt
+   38  cat nomes.txt
+   39  cat >> nomes.txt
+   40  cat nomes.txt
+   41  nano nomes.txt
+   42  cat nomes.txt
+   43  grep F nomes.txt | sort
+   44  cat nomes.txt

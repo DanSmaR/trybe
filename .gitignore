@@ -1,2 +1,6 @@
 geral/
 soft_skills/
+*.pdf
+*.gz
+*.tar
+*.txt

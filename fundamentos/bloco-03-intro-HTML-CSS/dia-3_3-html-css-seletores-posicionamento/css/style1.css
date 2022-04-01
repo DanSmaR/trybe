@@ -31,6 +31,9 @@ body {
 .bowser-context {
   float: right;
   position: relative;
+  min-width: 545px;
+  width: 65%;
+  max-width: 800px;
 }
 
 .bowser {

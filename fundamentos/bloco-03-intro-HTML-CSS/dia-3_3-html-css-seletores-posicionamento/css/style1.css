@@ -1,3 +1,7 @@
+body {
+  min-width: 490px;
+}
+
 .mario-context {
   float: left;
   position: relative;
@@ -6,7 +10,6 @@
 
 .super-mario {
   width: 200px;
-  /* display: block; */
 }
 
 .goomba {

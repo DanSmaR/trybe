@@ -1,5 +1,5 @@
 body {
-  min-width: 300px;
+  min-width: 255px;
   text-align: center;
 }
 
@@ -27,6 +27,7 @@ body {
   position: relative;
   width: 40%;
   float: left;
+  min-width: 175px;
 }
 
 .baloon {
@@ -44,12 +45,14 @@ body {
 .bowser-context {
   float: right;
   position: relative;
-  min-width: 478px;
   width: 65%;
   max-width: 800px;
+  margin-left: 16px;
+  min-width: 262px;
 }
 
 .bowser {
   width: 60%;
   float: right;
+  min-width: 255px;
 }

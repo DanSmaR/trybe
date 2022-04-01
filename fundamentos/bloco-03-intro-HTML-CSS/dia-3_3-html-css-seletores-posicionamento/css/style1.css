@@ -1,42 +1,57 @@
 body {
-  min-width: 490px;
+  min-width: 300px;
+  text-align: center;
 }
 
 .mario-context {
   float: left;
   position: relative;
   margin-bottom: 100px;
+  width: 17%;
+  max-width: 182px;
+  min-width: 120px;
 }
 
 .super-mario {
-  width: 200px;
+  width: 100%;
 }
 
 .goomba {
-  width: 100px;
-  left: 106px;
+  width: 48%;
+  left: 60%;
   position: absolute;
-  top: 260px;
+  top: 84%;
 }
 
-.baloon {}
+.baloon-context {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  float: left;
+  /* min-width: 296px; */
+}
+
+.baloon {
+  width: 100%;
+}
 
 .speach {
   font-size: 21px;
   position: absolute;
-  top: 43px;
-  left: 16px;
+  top: 5%;
+  left: 7%;
+  width: 78%;
 }
 
 .bowser-context {
   float: right;
   position: relative;
-  min-width: 545px;
+  min-width: 478px;
   width: 65%;
   max-width: 800px;
 }
 
 .bowser {
-  width: 500px;
+  width: 60%;
   float: right;
 }

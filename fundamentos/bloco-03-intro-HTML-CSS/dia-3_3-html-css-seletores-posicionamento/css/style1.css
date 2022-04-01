@@ -1,17 +1,36 @@
+.mario-context {
+  float: left;
+  position: relative;
+  margin-bottom: 100px;
+}
+
 .super-mario {
   width: 200px;
+  /* display: block; */
 }
 
 .goomba {
   width: 100px;
+  left: 106px;
+  position: absolute;
+  top: 260px;
 }
 
 .baloon {}
 
 .speach {
-  font-size: 25px;
+  font-size: 21px;
+  position: absolute;
+  top: 43px;
+  left: 16px;
+}
+
+.bowser-context {
+  float: right;
+  position: relative;
 }
 
 .bowser {
-  width: 200px;
+  width: 500px;
+  float: right;
 }

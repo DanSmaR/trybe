@@ -24,11 +24,9 @@ body {
 }
 
 .baloon-context {
-  display: inline-block;
   position: relative;
   width: 40%;
   float: left;
-  /* min-width: 296px; */
 }
 
 .baloon {

@@ -1,3 +1,40 @@
+body {
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+div:nth-of-type(1)>h3 {
+  font-style: italic;
+}
+
+div:nth-of-type(2)>h3 {
+  text-decoration: wavy underline;
+  font-weight: 100;
+}
+
+div:nth-of-type(3)>h3 {
+  text-decoration: dotted underline;
+  font-weight: 900;
+  letter-spacing: 1.2em;
+  font-style: italic;
+}
+
+div:nth-of-type(4)>h3 {
+  text-decoration: dashed line-through;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+div:nth-of-type(5)>h3 {
+  text-decoration: double overline;
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
 div:hover {
   border: 1px solid rgb(172, 168, 168);
 }

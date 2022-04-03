@@ -41,7 +41,8 @@ li em {
 
 /* the 4 rules below only style the first 3 elements, whatever the amount of items*/
 
-.programming-languages li:nth-child(1):nth-last-child(1) {
+
+/* .programming-languages li:nth-child(1):nth-last-child(1) {
   color: blue;
 }
 
@@ -54,6 +55,13 @@ li em {
 }
 
 .programming-languages li:not(:nth-child(3) ~ li) {
+  color: blue;
+} */
+
+
+/* better way of doing the code above */
+
+.programming-languages li:nth-child(-n+3) {
   color: blue;
 }
 

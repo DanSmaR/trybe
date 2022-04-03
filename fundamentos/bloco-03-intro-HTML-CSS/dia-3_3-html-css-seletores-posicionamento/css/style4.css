@@ -71,3 +71,29 @@ li em {
 .contain-java {
   background-color: pink;
 }
+
+.aliados-dev li:hover {
+  font-weight: bold;
+}
+
+.aliados-dev a[href*="w3schools"]:hover {
+  color: green;
+}
+
+.aliados-dev a[href*="stackoverflow"]:hover {
+  color: orange;
+  background-color: black;
+}
+
+.aliados-dev a[href*="developer.mozilla"]:hover {
+  color: black;
+}
+
+.aliados-dev a[href*="devdocs"]:hover {
+  color: yellow;
+  background-color: rgb(24, 22, 22);
+}
+
+.aliados-dev a[href*="trybe"]:hover {
+  color: green;
+}

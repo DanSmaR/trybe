@@ -66,6 +66,12 @@ li em {
 }
 
 
+/* Other way of doing that */
+
+
+/* .programming-languages li:not(:nth-child(n + 4)) */
+
+
 /* ********************************************************************** */
 
 .contain-java {

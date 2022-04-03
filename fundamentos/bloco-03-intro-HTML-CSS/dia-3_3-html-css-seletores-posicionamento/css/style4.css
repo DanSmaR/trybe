@@ -37,3 +37,29 @@ li {
 li em {
   font-weight: bold;
 }
+
+
+/* the 4 rules below only style the first 3 elements, whatever the amount of items*/
+
+.programming-languages li:nth-child(1):nth-last-child(1) {
+  color: blue;
+}
+
+.programming-languages li:nth-child(2):nth-last-child(1) {
+  color: blue;
+}
+
+.programming-languages li:nth-child(3):nth-last-child(1) {
+  color: blue;
+}
+
+.programming-languages li:not(:nth-child(3) ~ li) {
+  color: blue;
+}
+
+
+/* ********************************************************************** */
+
+.contain-java {
+  background-color: pink;
+}

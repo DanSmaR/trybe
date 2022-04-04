@@ -10,9 +10,15 @@
       text-align: center;
     }
     
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
     .wrapper {
       margin: 0 auto;
       width: max-content;
+      text-align: center;
     }
     
     .first {
@@ -38,6 +44,15 @@
       text-align: center;
       width: 300px;
     }
+    
+    .u-inline {
+      display: inline-block;
+    }
+    
+    .u-center {
+      margin-left: auto;
+      margin-right: auto;
+    }
   </style>
 </head>
 
@@ -48,26 +63,26 @@
     </header>
     <section>
       <ul>
-        <li class="first">1º - Equipe 1</li>
-        <li class="second">2º - Equipe 2</li>
-        <li class="third">3º - Equipe 3</li>
+        <li class="first u-center">1º - Equipe 1</li>
+        <li class="second u-inline">2º - Equipe 2</li>
+        <li class="third u-inline">3º - Equipe 3</li>
       </ul>
     </section>
     <section>
-      <h3>Premiação Primeiro Lugar:</h3>
+      <h3 class="u-center">Premiação Primeiro Lugar:</h3>
       <ul>
-        <li>| R$ 1000,00 por integrante da equipe |</li>
-        <li>| Bootcamp de 2 meses com possibilidade de contratação |</li>
+        <li class="u-inline">| R$ 1000,00 por integrante da equipe |</li>
+        <li class="u-inline">| Bootcamp de 2 meses com possibilidade de contratação |</li>
       </ul>
-      <h3>Premiação Segundo Lugar:</h3>
+      <h3 class="u-center">Premiação Segundo Lugar:</h3>
       <ul>
-        <li>| R$ 600,00 por integrante da equipe |</li>
-        <li>| Participação no processo seletivo para o Bootcamp |</li>
+        <li class="u-inline">| R$ 600,00 por integrante da equipe |</li>
+        <li class="u-inline">| Participação no processo seletivo para o Bootcamp |</li>
       </ul>
-      <h3>Premiação Terceiro Lugar:</h3>
+      <h3 class="u-center">Premiação Terceiro Lugar:</h3>
       <ul>
-        <li>| R$ 300,00 por integrante da equipe |</li>
-        <li>| Participação no processo seletivo para o Bootcamp |</li>
+        <li class="u-inline">| R$ 300,00 por integrante da equipe |</li>
+        <li class="u-inline">| Participação no processo seletivo para o Bootcamp |</li>
       </ul>
     </section>
   </div>

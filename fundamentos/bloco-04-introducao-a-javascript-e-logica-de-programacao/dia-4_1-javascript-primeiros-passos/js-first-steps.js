@@ -39,7 +39,7 @@ if (numA > numB || numA > numC) {
 // *************************************************************************************************************************
 
 // Faça um programa que, dado um valor definido numa constante, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário. 
-
+/*
 const numSignal = 0;
 
 if (numSignal > 0) {
@@ -47,3 +47,16 @@ if (numSignal > 0) {
 } else if (numSignal < 0) {
   console.log('Eh negativo');
 } else console.log('Eh zero');
+*/
+
+// ****************************************************************************************************************************
+
+// Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+
+const anguloTriangulo1 = 20;
+const anguloTriangulo2 = 50;
+const anguloTriangulo3 = 80;
+
+if ((anguloTriangulo1 + anguloTriangulo2 + anguloTriangulo3) == 180) {
+  console.log(true);
+} else console.log(false);

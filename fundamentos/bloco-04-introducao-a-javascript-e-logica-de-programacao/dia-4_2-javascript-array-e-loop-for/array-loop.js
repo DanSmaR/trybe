@@ -2,7 +2,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // 1 Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ; 
 
-for(let number of numbers) {
+for(const number of numbers) {
   console.log(number);
 }
 console.log('****************************************************');
@@ -13,7 +13,7 @@ console.log('****************************************************');
 
 let sumArray = 0;
 
-for(let number of numbers) {
+for(const number of numbers) {
   sumArray += number;
 }
 
@@ -49,6 +49,24 @@ for(let i = 0; i < numbers.length; i += 1) {
 }
 
 console.log('Maior valor: ' + higherValue);
+console.log('****************************************************');
+
+// ********************************************************************************
+
+/**
+ * 6 Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado"; 
+ */
+
+let oddNumbers = 0;
+
+for (const number of numbers) {
+  if (number % 2 !== 0) {
+    oddNumbers += 1;
+  }
+}
+
+if (oddNumbers !== 0) console.log('números ímpares: ' + oddNumbers);
+else console.log('nenhum valor ímpar encontrado');
 console.log('****************************************************');
 
 // ********************************************************************************

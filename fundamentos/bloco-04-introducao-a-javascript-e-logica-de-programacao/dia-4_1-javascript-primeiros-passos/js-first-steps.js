@@ -37,3 +37,13 @@ if (numA > numB || numA > numC) {
 } else console.log('O maior eh ' + numC);
 */
 // *************************************************************************************************************************
+
+// Faça um programa que, dado um valor definido numa constante, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário. 
+
+const numSignal = 0;
+
+if (numSignal > 0) {
+  console.log('Eh positivo');
+} else if (numSignal < 0) {
+  console.log('Eh negativo');
+} else console.log('Eh zero');

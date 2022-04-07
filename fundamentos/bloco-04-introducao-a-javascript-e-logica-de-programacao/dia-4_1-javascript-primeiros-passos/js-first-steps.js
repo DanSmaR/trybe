@@ -55,8 +55,15 @@ if (numSignal > 0) {
 
 const anguloTriangulo1 = 20;
 const anguloTriangulo2 = 50;
-const anguloTriangulo3 = 80;
+const anguloTriangulo3 = -80;
 
-if ((anguloTriangulo1 + anguloTriangulo2 + anguloTriangulo3) == 180) {
-  console.log(true);
+if (anguloTriangulo1 > 0 && anguloTriangulo2 > 0 && anguloTriangulo3 > 0) {
+  if ((anguloTriangulo1 + anguloTriangulo2 + anguloTriangulo3) == 180) {
+    console.log(true);
+  } else console.log(false);
 } else console.log(false);
+
+
+// *************************************************************************************************************************
+
+// 

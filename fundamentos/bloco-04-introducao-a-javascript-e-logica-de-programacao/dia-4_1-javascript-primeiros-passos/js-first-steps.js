@@ -120,6 +120,7 @@ switch (pecaXadrez) {
     O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
  */
 
+/**
 const porcentagem = 77;
 
 if (porcentagem > 100 || porcentagem < 0) {
@@ -137,3 +138,19 @@ if (porcentagem > 100 || porcentagem < 0) {
 } else {
   console.log('F');
 }
+*/
+
+//*********************************************************************************************************** */
+
+/**
+ * 8 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+ * Bonus: use somente um if . 
+ */
+
+const numX = 13;
+const numY = 31;
+const numZ = 45;
+
+if (numX % 2 == 0 || numY % 2 == 0 || numZ % 2 == 0) {
+  console.log(true);
+} else console.log(false);

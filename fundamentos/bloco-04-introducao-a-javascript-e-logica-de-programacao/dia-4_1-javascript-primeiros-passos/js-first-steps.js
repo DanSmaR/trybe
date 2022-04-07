@@ -144,7 +144,7 @@ if (porcentagem > 100 || porcentagem < 0) {
 
 /**
  * 8 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
- * Bonus: use somente um if . 
+ * Bonus: use somente um if .
  */
 /**
 const numX = 13;
@@ -159,10 +159,10 @@ if (numX % 2 == 0 || numY % 2 == 0 || numZ % 2 == 0) {
 //***************************************************************************************************************** */
 
 /**
- * 9 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false . 
- * Bonus: use somente um if . 
+ * 9 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
+ * Bonus: use somente um if .
  */
-
+/** 
 const numX = 13;
 const numY = 31;
 const numZ = 45;
@@ -170,3 +170,29 @@ const numZ = 45;
 if (numX % 2 != 0 || numY % 2 != 0 || numZ % 2 != 0) {
   console.log(true);
 } else console.log(false);
+*/
+//***************************************************************************************************************** */
+
+/** 
+ * 10 Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores,       calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+
+      Atente que, sobre o custo do produto, incide um imposto de 20%.
+      Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+      O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+        valorCustoTotal = valorCusto + impostoSobreOCusto
+        lucro = valorVenda - valorCustoTotal (lucro de um produto)
+ */
+
+const valorVenda = 2000;
+const valorCusto = 1500;
+const taxa = 0.2;
+const totalVendas = 1000;
+
+if (valorVenda < 0 || valorCusto < 0 || totalVendas < 0) {
+  console.error("Valor menor que 0");
+} else {
+  let custoTotal = valorCusto * (1 + taxa);
+  let lucroUnit = valorVenda - valorCusto;
+  let lucroTotal = totalVendas * lucroUnit;
+  console.info('Lucro Total = ' + lucroTotal);
+}

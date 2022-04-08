@@ -87,3 +87,18 @@ console.log("Menor valor: " + lowerValue);
 console.log("****************************************************");
 
 // ********************************************************************************
+
+/**
+ * 8 Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado; 
+ */
+
+let numArray = [];
+const finalValue = 25;
+
+for(let i = 0; i < finalValue; i += 1) {
+  numArray.push(i + 1);
+}
+console.log('Novo array: ' + numArray);
+console.log("****************************************************");
+
+// ******************************************************************************

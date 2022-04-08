@@ -102,3 +102,12 @@ console.log('Novo array: ' + numArray);
 console.log("****************************************************");
 
 // ******************************************************************************
+
+/**
+ * 9 Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 . 
+ */
+
+for(const num of numArray) {
+  let resultadoDiv = num / 2;
+  console.log('Divisão de ' + num + ' por 2 = ' + resultadoDiv);
+}
